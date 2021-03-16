@@ -1492,12 +1492,21 @@ export class GuiModel {
                     "elementList": [
                         {
                             "type": "pageLabel",
-                            "value": "<h4>Willkommen bei DevOps</h4>",
+                            "value": "<h4>Willkommen bei DevOps (Pascal, Radu, Rahel)</h4>",
                             "newRow": true
                         },
                         {
                             "type": "button",
                             "name": { default: "Studiengang" },
+                            "icon": "fa-file-alt",
+                            "color": "wet-asphalt",
+                            "page": "studyProgramPage",
+                            "width": 2,
+                            "newRow": true,
+                        },
+                        {
+                            "type": "button",
+                            "name": { default: "Übersicht" },
                             "icon": "fa-file-alt",
                             "color": "wet-asphalt",
                             "page": "studyProgramPage",
@@ -1535,6 +1544,7 @@ export class GuiModel {
                         }
                     ]
                 },
+                
                 {
                     "id": "patientsPage",
                     "elementList": [
